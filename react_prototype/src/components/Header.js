@@ -5,7 +5,7 @@ import { FaInfoCircle, FaSearch } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid bg-white">
       <div className="p-2 hstack justify-content-between">
         <div>
           <img className="img-fluid" src={Logo} alt="Rizurf_Logo" />

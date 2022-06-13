@@ -10,7 +10,7 @@ export const data = [
     parkingSlot: 0,
     status: "rented",
     price: "1500",
-    url: "https://picsum.photos/200/300",
+    url: "https://picsum.photos/400/300",
   },
   {
     unitID: "12-02",
@@ -21,7 +21,7 @@ export const data = [
     parkingSlot: 1,
     status: "available",
     price: "1800",
-    url: "https://picsum.photos/200/300",
+    url: "https://picsum.photos/400/300",
   },
   {
     unitID: "11-10",
@@ -32,7 +32,7 @@ export const data = [
     parkingSlot: 1,
     status: "available",
     price: "2200",
-    url: "https://picsum.photos/200/300",
+    url: "https://picsum.photos/400/300",
   },
   {
     unitID: "20-09",
@@ -43,7 +43,7 @@ export const data = [
     parkingSlot: 1,
     status: "available",
     price: "1800",
-    url: "https://picsum.photos/200/300",
+    url: "https://picsum.photos/400/300",
   },
   {
     unitID: "05-03",
@@ -54,7 +54,7 @@ export const data = [
     parkingSlot: 1,
     status: "rented",
     price: "1500",
-    url: "https://picsum.photos/200/300",
+    url: "https://picsum.photos/400/300",
   },
   {
     unitID: "09-01",
@@ -65,7 +65,7 @@ export const data = [
     parkingSlot: 1,
     status: "available",
     price: "2200",
-    url: "https://picsum.photos/200/300",
+    url: "https://picsum.photos/400/300",
   },
 ];
 export const navBar = [
@@ -77,14 +77,14 @@ export const navBar = [
   },
   {
     id: 2,
-    name: "Tab02",
-    url: "/tab2",
+    name: "About",
+    url: "/about",
     icon: <FaSquare />,
   },
   {
     id: 3,
-    name: "Tab03",
-    url: "/tab3",
+    name: "Units",
+    url: "/units",
     icon: <FaSquare />,
   },
   {

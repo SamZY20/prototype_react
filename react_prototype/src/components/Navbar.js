@@ -1,4 +1,5 @@
 import { navBar } from "../data";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -8,11 +9,11 @@ const Navbar = () => {
           const { id, name, url, icon } = link;
           return (
             <li className="vstack" key={id}>
-              <a href={url} className={`${id === 3 ? "selected" : null}`}>
+              <Link to={url} className={`${id === 3 ? "selected" : null}`}>
                 {icon}
                 <br></br>
                 {name}
-              </a>
+              </Link>
             </li>
           );
         })}
